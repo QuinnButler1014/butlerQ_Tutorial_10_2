@@ -42,6 +42,7 @@
             this.exitButton.TabIndex = 7;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // createCatButton
             // 
@@ -51,6 +52,7 @@
             this.createCatButton.TabIndex = 6;
             this.createCatButton.Text = "Create a Cat";
             this.createCatButton.UseVisualStyleBackColor = true;
+            this.createCatButton.Click += new System.EventHandler(this.createCatButton_Click);
             // 
             // createDogButton
             // 
@@ -60,6 +62,7 @@
             this.createDogButton.TabIndex = 5;
             this.createDogButton.Text = "Create a Dog";
             this.createDogButton.UseVisualStyleBackColor = true;
+            this.createDogButton.Click += new System.EventHandler(this.createDogButton_Click);
             // 
             // createAnimalButton
             // 
@@ -69,6 +72,7 @@
             this.createAnimalButton.TabIndex = 4;
             this.createAnimalButton.Text = "Create an Animal";
             this.createAnimalButton.UseVisualStyleBackColor = true;
+            this.createAnimalButton.Click += new System.EventHandler(this.createAnimalButton_Click);
             // 
             // Form1
             // 
